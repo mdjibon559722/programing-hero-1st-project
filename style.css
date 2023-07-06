@@ -36,6 +36,10 @@ nav{
     color: blanchedalmond;
 }
 
+.list ul li a:hover{
+   color: aqua;
+   transition: 0.5s;
+}
 /* about */
 
 .home{
@@ -116,25 +120,22 @@ img{
 }
 
 .about-sec img {
-  padding-top: 17px;
-  padding-left: 20px;
-  padding: -29px;
-  position: relative;
-  align-items: center;
+
   border: 3px solid;
   border-radius: 50%;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
-    border-bottom-left-radius: 50%;
-  border-top: -44px;
+
   margin: 31px;
+
   width: 302px;
   height: 300px;
+  margin: 28px;
+  margin-left: 100px;
+  padding-top: 0;
+  width: 400px;
 }
 
 .about-text{
-    padding-top: 130px;
+    padding-top: 68px;
     font-size: 20px;
   }
 
@@ -174,6 +175,7 @@ img{
   font-size: 40px;
   padding-top: 10px;
   text-decoration: underline;
+  color: #1b28ec;
 }
 
 /* contact */
@@ -207,13 +209,14 @@ img{
   margin-top: 10px;
   padding: 10px;
 }
-.log-in h4 {
+.log-in h6 {
     text-align: center;
     font-size: 40px;
     padding-top: -28px;
     padding-bottom: -39px;
     margin-top: 3px;
     margin-bottom: 50px;
+    
   }
 
   .log-in input{
@@ -234,6 +237,7 @@ img{
    footer{
     background-color: #111515;
     color: wheat;
+    margin-top: -23px;
    }
     footer .end {
       display: flex;
